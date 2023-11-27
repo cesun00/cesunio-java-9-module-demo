@@ -1,6 +1,6 @@
 default: run-with-my-jdk
 
-.PHONY: build package-jar run clean link
+.PHONY: build package-jar package-jmod run-with-std-jdk run-with-my-jdk link clean 
 
 build:
 	javac -d out --module-source-path src -m com.foo,org.bar
